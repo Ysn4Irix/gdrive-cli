@@ -12,23 +12,23 @@
 <p align="center">
   <b>📟 CLI for uploading files directly to your Google Drive.</b><br>
 </p>
+
 <br>
 
 <p align="center">
-  <sub>(Example shows gdrive's <a href="#survey-prompt">Uploading file</a>)</a></sub>
-  <img src="https://res.cloudinary.com/ydevcloud/image/upload/v1656880231/ezgif.com-gif-maker_tlwqqg.gif" alt="Enquirer Survey Prompt" width="450" style="border-radius: 5px;"><br>
-  <sub>
+<sub align="center">(Example shows gdrive's <a href="#">Uploading file</a>)</a></sub>
+  <img src="https://res.cloudinary.com/ydevcloud/image/upload/v1656880231/ezgif.com-gif-maker_tlwqqg.gif" alt="gdrive-cli" width="450" style="border-radius: 5px;"><br>
 </p>
+
 <br>
 
 ![📟](https://res.cloudinary.com/ydevcloud/image/upload/v1656874185/asm9cp84cbuuqmarw9wq.png)
 
-❯ Install
----------
+## ❯ Install
 
-Requires Node.js 14.0 or higher download & install for [Windows](<https://nodejs.org/en/download/>) or [Linux](<https://nodejs.org/en/download/>)
+Requires Node.js 14.0 or higher download & install for [Windows](https://nodejs.org/en/download/) or [Linux](https://nodejs.org/en/download/)
 
-``` sh
+```sh
 # Recommended.
 npx @ysn4irix/gdrive
 
@@ -40,8 +40,7 @@ npm install -g @ysn4irix/gdrive
 
 ![⚙️](https://res.cloudinary.com/ydevcloud/image/upload/v1656874522/fmfktytvymbnnc0fg4zz.png)
 
-❯ Usage
--------
+## ❯ Usage
 
 1.  Get your credentials from [Google Cloud
     Console](https://console.cloud.google.com/)
@@ -50,17 +49,17 @@ npm install -g @ysn4irix/gdrive
 
 2.  Create your Google Drive credentials config file
 
-``` sh
+```sh
 npx gdrive --config
 
 # OR for global install
 gdrive --config
 ```
 
-*Then answer the following questions buy copy paste your credentials to
-create your config file.*
+_Then answer the following questions buy copy paste your credentials to
+create your config file._
 
-``` sh
+```sh
 Client Secret?
 CLI Client ID?
 CLI Refresh Token?
@@ -68,7 +67,7 @@ CLI Refresh Token?
 
 3.  Run the CLI using
 
-``` sh
+```sh
 npx gdrive
 
 # OR for global install
@@ -77,22 +76,22 @@ gdrive
 
 #### BASIC USAGE
 
-``` sh
+```sh
 gdrive <command> [option]
 ```
 
 #### COMMANDS
 
-``` sh
+```sh
 upload  Upload file to Google Drive
 ```
 
 #### OPTIONS
 
-``` sh
---path         Path of your file to be uploaded   
+```sh
+--path         Path of your file to be uploaded
 --share        Get the uploaded file link
---config       Edit credentials config file       
+--config       Edit credentials config file
 --help         Print help info
 -v, --version  Print CLI version
 ```
@@ -101,8 +100,7 @@ upload  Upload file to Google Drive
 
 ![🙌](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/connect.png)
 
-❯ About
--------
+## ❯ About
 
 <summary><strong>Contributing</strong></summary>
 
@@ -119,8 +117,7 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 ![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)
 
-❯ License
--------
+## ❯ License
 
 Copyright © 2022-present, [Ysn4Irix](https://github.com/Ysn4Irix).
 Released under the [MIT License](LICENSE).
