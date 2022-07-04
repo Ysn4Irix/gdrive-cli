@@ -48,7 +48,7 @@ npm install -g @ysn4irix/gdrive
 1.  Get your credentials from [Google Cloud
     Console](https://console.cloud.google.com/)
 
-<a href="https://youtu.be/GYbtHiABRCU"><img src="https://img.shields.io/badge/-watch%20video-critical?style=for-the-badge&logo=youtube&logoColor=white">
+<a href="https://youtu.be/GYbtHiABRCU"><img src="https://img.shields.io/badge/-watch%20video-critical?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
 2.  Create your Google Drive credentials config file
 
