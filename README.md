@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1656878450/ztsl0synryyzwxg2lqvd.svg" align="center" alt="gdrive" />
+ <img width="300px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1656975211/jclyhsjwvmb8hgguvela.svg" align="center" alt="gdrive" />
 </p>
 
 <p align="center">
