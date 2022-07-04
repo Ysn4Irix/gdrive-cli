@@ -16,7 +16,7 @@
 <br>
 
 <p align="center">
-<sub align="center">(Example shows gdrive's <a href="#">Uploading file</a>)</a></sub>
+<sub align="center">(Example shows gdrive's <a href="#">Uploading file</a>)</sub>
 </p>
 
 <p align="center">
