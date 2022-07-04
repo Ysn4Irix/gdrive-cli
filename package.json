@@ -1,7 +1,7 @@
 {
 	"name": "@ysn4irix/gdrive",
 	"description": "cli for uploading files directly to your Google Drive.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"main": "index.js",
 	"bin": {
