@@ -17,6 +17,9 @@
 
 <p align="center">
 <sub align="center">(Example shows gdrive's <a href="#">Uploading file</a>)</a></sub>
+</p>
+
+<p align="center">
   <img src="https://res.cloudinary.com/ydevcloud/image/upload/v1656880231/ezgif.com-gif-maker_tlwqqg.gif" alt="gdrive-cli" width="450" style="border-radius: 5px;"><br>
 </p>
 
