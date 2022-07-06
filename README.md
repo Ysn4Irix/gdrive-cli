@@ -25,6 +25,10 @@
 
 <br>
 
+<p align="center">
+  <img src="https://res.cloudinary.com/ydevcloud/image/upload/v1657122244/yassi/goafdvoalju7ty1seuqo.gif" alt="star-repo" style="border-radius: 5px;"><br>
+</p>
+
 ![📟](https://res.cloudinary.com/ydevcloud/image/upload/v1656874185/asm9cp84cbuuqmarw9wq.png)
 
 ## ❯ Install
