@@ -68,8 +68,8 @@ create your config file._
 
 ```sh
 Client Secret?
-CLI Client ID?
-CLI Refresh Token?
+Client ID?
+Refresh Token?
 ```
 
 3.  Run the CLI using
