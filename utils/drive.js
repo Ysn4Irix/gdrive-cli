@@ -5,11 +5,13 @@ const alert = require("cli-alerts");
 const {
     green: g,
     yellow: y,
-    dim: d
+    dim: d,
+    red: r
 } = require("chalk");
 const {
     google
 } = require("googleapis");
+const clipboard = require("clipboardy");
 
 const convertBytes = require("./convertBytes");
 const questions = require("./questions");
@@ -35,7 +37,7 @@ module.exports = {
             console.log(`${y(`Size:`)} ${d(convertBytes(size))}\n`);
 
             spinner.start(
-                `${y(`Uploading...`)} \n\n${d(`It may take moment...`)}`
+                `${y(`🚀 Uploading...`)} \n\n${d(`It may take moment depending on your internet speed...`)}`
             );
 
             const oauth2Client = new google.auth.OAuth2(
@@ -61,7 +63,8 @@ module.exports = {
                     media: {
                         body: fs.createReadStream(linuxPath)
                     }
-                })
+                });
+
                 if (isShared) {
                     try {
                         const {
@@ -90,7 +93,10 @@ module.exports = {
                         });
 
                         console.log(`${y(`Shared link:`)} ${g(data.webViewLink)}\n`);
+                        clipboard.writeSync(data.webViewLink);
+                        console.log(`${d(`Link copied to clipboard.`)}`);
                     } catch (error) {
+                        spinner.fail(`${r(`Error`)}`);
                         //console.log(error);
                         alert({
                             type: `error`,
@@ -106,12 +112,19 @@ module.exports = {
                     });
                 }
             } catch (error) {
-                alert({
-                    type: `error`,
-                    msg: `Error uploading file 😢, try again later`
-                });
+                //console.log(error);
+                spinner.fail(`${r(`Error`)}`);
+                error.message.includes("invalid_grant") ? alert({
+                        type: `error`,
+                        msg: `Refresh Token expired, get a new one from your google cloud console`
+                    }) :
+                    alert({
+                        type: `error`,
+                        msg: `Error uploading file 😢, try again later`
+                    });
             }
         } else {
+            spinner.fail(`${r(`Error`)}`);
             alert({
                 type: `error`,
                 msg: `Invalid file path use --help for infos`

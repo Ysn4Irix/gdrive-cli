@@ -39,6 +39,7 @@
 		"cli-meow-help": "^3.1.0",
 		"cli-should-cancel": "^1.0.3",
 		"cli-welcome": "^2.2.2",
+		"clipboardy": "^2.0.0",
 		"data-store": "^3.1.0",
 		"enquirer": "^2.3.6",
 		"googleapis": "^104.0.0",
