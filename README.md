@@ -1,5 +1,5 @@
 <p align="center">
- <img width="200px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1656878450/ztsl0synryyzwxg2lqvd.svg" align="center" alt="gdrive" />
+ <img width="300px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1656975211/jclyhsjwvmb8hgguvela.svg" align="center" alt="gdrive" />
 </p>
 
 <p align="center">
@@ -24,6 +24,10 @@
 </p>
 
 <br>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/ydevcloud/image/upload/v1657122244/yassi/goafdvoalju7ty1seuqo.gif" alt="star-repo" style="border-radius: 5px;"><br>
+</p>
 
 ![📟](https://res.cloudinary.com/ydevcloud/image/upload/v1656874185/asm9cp84cbuuqmarw9wq.png)
 
@@ -50,7 +54,9 @@ npm install -g @ysn4irix/gdrive
 
 <a href="https://youtu.be/GYbtHiABRCU">
 <img src="https://img.shields.io/badge/-watch%20video-critical?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
+</a><br>
+
+<br>
 
 2.  Create your Google Drive credentials config file
 
@@ -66,8 +72,8 @@ create your config file._
 
 ```sh
 Client Secret?
-CLI Client ID?
-CLI Refresh Token?
+Client ID?
+Refresh Token?
 ```
 
 3.  Run the CLI using
