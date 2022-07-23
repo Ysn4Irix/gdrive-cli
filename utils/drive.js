@@ -23,6 +23,13 @@ const spinner = ora({
 module.exports = {
     upload: async (filePath, isShared) => {
         if (filePath !== "") {
+            if (!fs.existsSync(filePath)) {
+                alert({
+                    type: `error`,
+                    msg: `Invalid Path or File not found!`
+                })
+                return
+            }
             console.log("Your credentials:");
             console.log();
             const vars = await questions();
